@@ -1,0 +1,42 @@
+[
+    {
+       "name": "alfa",
+       "image": "/src/assets/logos/alfa.jpg"
+    },
+    {
+        "name": "alphatauri",
+        "image": "/src/assets/logos/alphatauri.jpg"
+     },
+     {
+        "name": "alpine",
+        "image": "/src/assets/logos/alpine.jpg"
+     },
+     {
+        "name": "aston_martin",
+        "image": "/src/assets/logos/aston_martin.jpg"
+     },
+     {
+        "name": "ferrari",
+        "image": "/src/assets/logos/ferrari.jpg"
+     },
+     {
+        "name": "haas",
+        "image": "/src/assets/logos/haas.jpg"
+     },
+     {
+        "name": "mclaren",
+        "image": "/src/assets/logos/mclaren.jpg"
+     },
+     {
+        "name": "mercedes",
+        "image": "/src/assets/logos/mercedes.jpg"
+     },
+     {
+        "name": "red_bull",
+        "image": "/src/assets/logos/red_bull.jpg"
+     },
+     {
+        "name": "williams",
+        "image": "/src/assets/logos/williams.jpg"
+     }   
+]
