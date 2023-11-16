@@ -67,28 +67,28 @@ const Hero = () => {
 
         
         <div className='w-[55%] absolute right-0 h-[85%] mt-10 text-center flex flex-col align-middle xl:w-[100%] sm:m-0'>
-            <h1 className='3xl:text-9xl 2xl:text-7xl sm:text-6xl'>Sao Paulo Grand Prix</h1>
-            <h2 className='3xl:text-7xl 2xl:text-5xl sm:text-4xl'>03-05 November</h2>
-            <div className='3xl:text-6xl 2xl:text-4xl sm:text-3xl pt-10 leading-loose'>
+            <h1 className='3xl:text-9xl 2xl:text-7xl sm:text-5xl'>Sao Paulo Grand Prix</h1>
+            <h2 className='3xl:text-7xl 2xl:text-5xl sm:text-3xl'>03-05 November</h2>
+            <div className='3xl:text-6xl 2xl:text-4xl sm:text-2xl pt-10 leading-loose'>
                 <div className='leading-none mb-10'>
                    <p>Race</p>
-                    <span className='3xl:text-2xl 2xl:text-xl sm:text-lg'>SUN 19:30 CET</span> 
+                    <span className='3xl:text-2xl 2xl:text-xl sm:text-md'>SUN 19:30 CET</span> 
                 </div>
                 <div className='leading-none mb-10'>
                    <p>Sprint</p>
-                    <span className='3xl:text-2xl 2xl:text-xl sm:text-lg'>SAT 19:30 CET</span> 
+                    <span className='3xl:text-2xl 2xl:text-xl sm:text-md'>SAT 19:30 CET</span> 
                 </div>
                 <div className='leading-none mb-10'>
                    <p>Sprint Shootout</p>
-                    <span className='3xl:text-2xl 2xl:text-xl sm:text-lg'>SAT 15:00 CET</span> 
+                    <span className='3xl:text-2xl 2xl:text-xl sm:text-md'>SAT 15:00 CET</span> 
                 </div>
                 <div className='leading-none mb-10'>
                    <p>Qualifying</p>
-                    <span className='3xl:text-2xl 2xl:text-xl sm:text-lg'>19:00 CET</span> 
+                    <span className='3xl:text-2xl 2xl:text-xl sm:text-md'>FRI 19:00 CET</span> 
                 </div>
                 <div className='leading-none'>
                    <p>Practice 1</p>
-                    <span className='3xl:text-2xl 2xl:text-xl sm:text-lg'>15:30 CET</span> 
+                    <span className='3xl:text-2xl 2xl:text-xl sm:text-md'>FRI 15:30 CET</span> 
                 </div>
             </div>
         </div>

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-import employees from '/employees.json';
 import logos from '/src/logos.json'
 
 
@@ -29,14 +28,14 @@ const Teams = () => {
 
 
   return (
-    <div className='mt-20'>
+    <div className='mt-20 sm:mt-1'>
       {/* <div className='text-3xl grid grid-cols-5 mx-auto gap-10 pt-20'>
         {data.map(object => (
           <div key={object.constructorId}>{object.name}</div>
     
           ))} 
       </div>       */}
-      <div className='w-[90%] grid grid-cols-5 mx-auto gap-10 pt-20'>
+      <div className='w-[90%] grid grid-cols-5 mx-auto gap-10 pt-20 sm:grid-cols-2 sm:pt-0 '>
         {
           logos.map((logos) => (
             <img src={logos.image}></img>

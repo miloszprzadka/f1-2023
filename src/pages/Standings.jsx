@@ -39,9 +39,9 @@ const Standings = () => {
 
 
   return (
-    <div className='flex justify-around text-3xl text-center'>
+    <div className='flex justify-around text-3xl text-center md:text-sm'>
       <div>
-        <h2 className='text-5xl p-5'>Drivers standings</h2>
+        <h2 className='text-5xl p-5 md:text-xl'>Drivers standings</h2>
         {data.map(object => (
           object.DriverStandings.map(item =>(
             <div className='p-2' key={item.Driver.driverId}>{item.position}. {item.Driver.givenName} {item.Driver.familyName} {item.points} points</div>  
@@ -49,7 +49,7 @@ const Standings = () => {
         ))}
       </div>
       <div>
-        <h2 className='text-5xl p-5'>Constructors standings</h2>
+        <h2 className='text-5xl p-5 md:text-xl'>Constructors standings</h2>
       {info.map(object => (
           object.ConstructorStandings.map(item =>(
             <div className='p-2' key={item.Constructor.constructorId}>{item.position}. {item.Constructor.name} {item.points} points</div>  

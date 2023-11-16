@@ -23,7 +23,7 @@ const Drivers = () => {
   return (
     <div className=''>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-        <div className='mx-auto text-center pt-10'>
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Max Verstappen<br></br>
           Team: Red Bull Racing<br></br>
           Country: Netherlands<br></br>
@@ -37,9 +37,9 @@ const Drivers = () => {
           Place of birth: Hasselt,<br></br>
           Belgium<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/ver.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/per.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl  md:w-[25%] md:h-[25%]' src='src/assets/drivers/ver.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/per.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Sergio Perez<br></br>
           Team: Red Bull Racing<br></br>
           Country: Mexico<br></br>
@@ -55,7 +55,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-        <div className='mx-auto text-center pt-10'>
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Lewis Hamilton<br></br>
           Team: Mercedes<br></br>
           Country: United Kingdom<br></br>
@@ -69,9 +69,9 @@ const Drivers = () => {
           Place of birth: Stevenage,<br></br>
           England<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/ham.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/rus.avif'></img>
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/ham.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/rus.avif'></img>
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: George Russell<br></br>
           Team: Mercedes<br></br>
           Country: United Kingdom<br></br>
@@ -87,7 +87,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-      <div className='mx-auto text-center pt-10'>
+      <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Charles Leclerc<br></br>
           Team: Ferrari<br></br>
           Country: Monaco<br></br>
@@ -101,9 +101,9 @@ const Drivers = () => {
           Place of birth: Monte Carlo,<br></br>
           Monaco<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/lec.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/sai.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/lec.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/sai.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Carlos Sainz<br></br>
           Team: Ferrari<br></br>
           Country: Spain<br></br>
@@ -119,7 +119,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-      <div className='mx-auto text-center pt-10'>
+      <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Lando Norris<br></br>
           Team: McLaren<br></br>
           Country: United Kingdom<br></br>
@@ -133,9 +133,9 @@ const Drivers = () => {
           Place of birth: Bristol,<br></br>
           England<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/nor.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/pia.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/nor.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/pia.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Oscar Piastri<br></br>
           Team: McLaren<br></br>
           Country: Australia<br></br>
@@ -151,7 +151,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-      <div className='mx-auto text-center pt-10'>
+      <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Fernando Alonso<br></br>
           Team: Aston Martin<br></br>
           Country: Spain<br></br>
@@ -165,9 +165,9 @@ const Drivers = () => {
           Place of birth: Oviedo,<br></br>
           Spain<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/alo.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/str.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/alo.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/str.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Lance Stroll<br></br>
           Team: Aston Martin<br></br>
           Country: Canada<br></br>
@@ -183,7 +183,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-      <div className='mx-auto text-center pt-10'>
+      <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Pierre Gasly<br></br>
           Team: Alpine<br></br>
           Country: France<br></br>
@@ -197,9 +197,9 @@ const Drivers = () => {
           Place of birth: Rouen,<br></br>
            France<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/gas.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/oco.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/gas.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/oco.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Esteban Ocon<br></br>
           Team: Alpine<br></br>
           Country: France<br></br>
@@ -215,7 +215,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-      <div className='mx-auto text-center pt-10'>
+      <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Yuki Tsunoda<br></br>
           Team: AlphaTauri<br></br>
           Country: Japan<br></br>
@@ -229,9 +229,9 @@ const Drivers = () => {
           Place of birth: Sagamihara,<br></br>
           Japan<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/tsu.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/ric.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/tsu.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/ric.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Daniel Ricciardo<br></br>
           Team: AlphaTauri<br></br>
           Country: Australia<br></br>
@@ -247,7 +247,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-      <div className='mx-auto text-center pt-10'>
+      <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Valtteri Bottas<br></br>
           Team: Alfa Romeo<br></br>
           Country: Finland<br></br>
@@ -260,9 +260,9 @@ const Drivers = () => {
           Date of birth: 28/08/1989<br></br>
           Place of birth: Nastola, Finland<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/bot.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/zho.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/bot.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/zho.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Zhou Guanyu<br></br>
           Team: Alfa Romeo<br></br>
           Country: China<br></br>
@@ -277,7 +277,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-      <div className='mx-auto text-center pt-10'>
+      <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Alexander Albon<br></br>
           Team: Williams<br></br>
           Country: Thailand<br></br>
@@ -290,9 +290,9 @@ const Drivers = () => {
           Date of birth: 23/03/1996<br></br>
           Place of birth: London, England<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/alb.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/sar.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/alb.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/sar.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Logan Sargeant<br></br>
           Team: Williams<br></br>
           Country: United States<br></br>
@@ -308,7 +308,7 @@ const Drivers = () => {
         </div>
       </div>
       <div className='flex justify-center mx-auto gap-5 m-3 '>
-      <div className='mx-auto text-center pt-10'>
+      <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Nico Hulkenberg<br></br>
           Team: Haas F1 Team<br></br>
           Country: Germany<br></br>
@@ -322,9 +322,9 @@ const Drivers = () => {
           Place of birth: Emmerich am<br></br>
           Rhein, Germany<br></br>
         </div>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/hul.avif'></img>
-        <img className='w-[20%] rounded-3xl' src='src/assets/drivers/mag.avif'></img> 
-        <div className='mx-auto text-center pt-10'>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/hul.avif'></img>
+        <img className='w-[20%] rounded-3xl md:w-[25%] md:h-[25%]' src='src/assets/drivers/mag.avif'></img> 
+        <div className='mx-auto text-center pt-10 md:text-[5px] md:pt-0'>
           Name: Kevin Magnussen<br></br>
           Team: Haas F1 Team<br></br>
           Country: Denmark<br></br>

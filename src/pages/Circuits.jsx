@@ -3,7 +3,7 @@ import React from 'react'
 const Circuits = () => {
   return (
     <div>
-      <div className='grid grid-cols-4 '>
+      <div className='grid grid-cols-4 md:grid-cols-2 md:text-[10px] md:text-center'>
 
         <div className='p-10'>
           <h2 className='flex justify-center'>FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2023</h2>
